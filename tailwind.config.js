@@ -8,14 +8,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-
+        letterSpacing:{
+          'barlowCondensed':'2.7px',
+        },
       backgroundImage:{
             'backgroundMobile': "url('/assets/home/background-home-mobile.jpg')",
             'backgroundTablet': "url('/assets/home/background-home-tablet.jpg')",
             'backgroundDesktop': "url('/assets/home/background-home-desktop.jpg')",
         },
       fontFamily: {
-        'sans': ['Bellefair', ...defaultTheme.fontFamily.sans]
+        'bellefair' : 'Bellefair',
+        'navbar': 'Barlow Condensed',
+        'barlow': 'Barlow'
       },
       spacing:{
         'mobile-header': '44px'
