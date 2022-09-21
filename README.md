@@ -6,4 +6,4 @@ Feel free to look around :)
 Built using NextJS and TailwindCSS.
 
 
-Deployed link: [link](https://vercel.com/dfd93ea0-8eef-43e6-8b9e-2620447a32be)
+Deployed link: [link](https://space-tourism-sigma-two.vercel.app)
