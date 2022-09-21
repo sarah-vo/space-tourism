@@ -27,9 +27,11 @@ export default function Home() {
                 <div className={`font-barlow text-[#D0D6F9] text-center desktop:text-left desktop:leading-8`}>{homeText.mainText}</div>
             </div>
 
-            <button className={`font-bellefair text-3xl 
+            <a className={``} href={`/dest`}>
+                <div className={`font-bellefair text-3xl flex items-center justify-center
                                 w-[150px] h-[150px] desktop:w-[260px] desktop:h-[260px] 
-                                rounded-full bg-white desktop:self-end`}>{homeText.explore}</button>
+                                rounded-full bg-white desktop:self-end`}>{homeText.explore}</div>
+            </a>
         </div>
 
 

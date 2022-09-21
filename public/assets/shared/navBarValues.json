@@ -3,21 +3,21 @@
     "key": 0,
     "num": "00",
     "desc": "HOME",
-    "href": "#home"
+    "href": "/"
   },    {
   "key": 1,
   "num": "01",
   "desc": "DESTINATION",
-  "href": "#dest"
+  "href": "dest"
 },    {
   "key": 2,
   "num": "02",
   "desc": "CREW",
-  "href": "#crew"
+  "href": "crew"
 },    {
   "key": 3,
   "num": "03",
   "desc": "TECHNOLOGY",
-  "href": "#tech"
+  "href": "technology"
 }
 ]

@@ -5,16 +5,16 @@ import hamburger from '../public/assets/shared/icon-hamburger.svg';
 import closeIcon from '../public/assets/shared/icon-close.svg';
 import Image from "next/image";
 import Link from "next/link";
-import navBarValues from "../public/assets/home/navBarValues.json" assert {type: 'json'};
+import navBarValues from "../public/assets/shared/navBarValues.json" assert {type: 'json'};
 import MobileSideNav from "./mobileSideNav";
 
 function Navbar(props) {
 
 
     return (
-        <div className={`w-screen`}>
+        <header className={`w-screen`}>
             <div className={`flex flex-row justify-between items-center
-                            py-3 tablet:py-5 tablet:!pr-0 desktop:!py-7 desktop:!pr-0 
+                            py-5 tablet:py-5 tablet:!pr-0 desktop:!py-7 desktop:!pr-0 
                             px-5 tablet:!pt-0 tablet:px-7 desktop:px-9`}>
                 <a className={`logo`} href={`/`}><Image src={logo} alt={`logo`} width={`40px`} height={`40px`}  /></a>
                 {/*tablet/desktop navbar toggle*/}
@@ -39,7 +39,7 @@ function Navbar(props) {
                 </a>
                 <MobileSideNav/>
             </div>
-        </div>
+        </header>
     );
 }
 

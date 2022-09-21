@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import closeIcon from "../public/assets/shared/icon-close.svg";
-import navBarValues from "../public/assets/home/navBarValues.json" assert {type: 'json'};
+import navBarValues from "../public/assets/shared/navBarValues.json" assert {type: 'json'};
 
 function MobileSideNav(props) {
 
@@ -10,7 +10,7 @@ function MobileSideNav(props) {
                                              px-5 py-3 min-h-screen w-[67%]
                                              backdrop-blur-md bg-transparent
                                              translate-x-full target:translate-x-0 
-                                             duration-200 motion-reduce:duration-[1ms] ease-in-out
+                                             duration-200 motion-reduce:duration-[5ms] ease-in-out
                                              will-change-transform
                                               invisible`}>
             <nav className={`text-md text-white flex flex-col gap-3`}>

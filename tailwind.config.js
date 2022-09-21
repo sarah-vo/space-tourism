@@ -2,6 +2,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+    important: true,
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -34,7 +35,8 @@ module.exports = {
         '60': '60ms'
       },
       colors:{
-        'spaceBlack': '#0B0D17'
+        'spaceBlack': '#0B0D17',
+        'labelPurple': '#D0D6F9'
       }
     },
   },
